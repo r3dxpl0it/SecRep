@@ -1,0 +1,23 @@
+Installation 
+	git clone https://github.com/s0md3v/XSStrike 
+===================================================================================
+Scan a single URL. Test a single webpage which uses GET method.
+	python xsstrike.py -u "http://example.com/search.php?q=query"
+===================================================================================
+Treat POST data as JSON
+	python xsstrike.py -u "http://example.com/search.php" --data '{"q":"query"} --json'
+===================================================================================
+Crawling
+	python xsstrike.py -u "http://example.com/page.php" --crawl
+===================================================================================
+Blind XSS
+	python xsstrike.py -u http://example.com/page.php?q=query --crawl --blind
+===================================================================================
+Skip DOM Scanning
+	python xsstrike.py -u "http://example.com/search.php?q=query" --skip-dom
+===================================================================================
+Fuzzing
+	python xsstrike.py -u "http://example.com/search.php?q=query" --fuzzer
+===================================================================================
+Bruteforce payloads from a file
+	python3 xsstrike.py -u "http://example.com/page.php?q=query" -f /path/to/file.txt
