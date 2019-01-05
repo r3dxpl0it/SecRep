@@ -29,3 +29,19 @@ hashdump  									#Show all pw hashes (Win)
 idletime  									#Display idle time of user
 screenshot 									#Take a screenshot
 clearev 									#Clear the logs
+
+
+=========================================================================
+Metasploit module for RID cycling:
+
+use auxiliary/scanner/smb/smb_lookupsid
+=========================================================================
+
+
+=========================================================================
+
+
+=========================================================================
+
+
+

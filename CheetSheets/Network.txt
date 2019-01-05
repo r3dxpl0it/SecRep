@@ -1,0 +1,63 @@
+SAMB / SMB / Windows Domain Enumeration : 
+
+
+nmblookup -A target
+smbclient //MOUNT/share -I target -N
+rpcclient -U "" target
+enum4linux target
+================================================================
+Discover Windows / Samba servers on subnet, finds Windows MAC addresses, netbios name and discover client workgroup / domain : 
+
+nbtscan 192.168.1.0/24
+================================================================
+Do Everything, runs all options (find windows client domain / workgroup) apart from dictionary based share name guessing : 
+
+enum4linux -a target-ip
+================================================================
+Fingerprint SMB Version : 
+
+smbclient -L //192.168.1.100 
+================================================================
+Find open SMB Shares : 
+
+nmap -T4 -v -oA shares --script smb-enum-shares --script-args smbuser=username,smbpass=password -p445 192.168.1.0/24   
+================================================================
+Enumerate SMB Users : 
+
+nmap -sU -sS --script=smb-enum-users -p U:137,T:139 192.168.11.200-254 
+================================================================
+Metasploit LLMNR / NetBIOS requests : 
+
+auxiliary/spoof/llmnr/llmnr_response
+auxiliary/spoof/nbns/nbns_response
+
+================================================================
+Capture the hashes:
+
+auxiliary/server/capture/smb
+auxiliary/server/capture/http_ntlm
+================================================================
+git clone https://github.com/SpiderLabs/Responder.git
+python Responder.py -i local-ip -I eth0
+================================================================
+APT2 : 
+
+Install : 	
+	git clone https://github.com/MooseDojo/apt2.git
+Usage : 
+	python apt2.py
+
+With Configuration File
+	python apt2.py -C <config.txt>
+
+Import Nexpose, Nessus, or NMap XML
+	python apt2.py -f <nmap.xml>
+
+Specify Target Range to Start
+	python apt2.py --target 192.168.1.0/24
+================================================================
+Metasploit module for RID cycling:
+
+use auxiliary/scanner/smb/smb_lookupsid
+=========================================================================
+
