@@ -7,6 +7,9 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - Nexpose (Free and Community Verion) https://www.rapid7.com/products/nexpose/
     - Core Impact (Not Free) https://www.secureauth.com/products/penetration-testing/core-impact
     - Cobalt Strike (Not Free) https://www.cobaltstrike.com/
+- Enumeration and VulnScanner : 
+    - Sn1per https://github.com/1N3/Sn1per
+    - Archni http://www.arachni-scanner.com/
 - Network : 
     - Nmap https://nmap.org/
     - Zmap https://zmap.io/
