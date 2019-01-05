@@ -42,7 +42,8 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - ISF(Industrial Control System Exploitation Framework) https://github.com/dark-lbp/isf
 - Privec
     - Linux privilege escalation auditing tool  https://github.com/mzet-/linux-exploit-suggester
-
+- BlockChain Security 
+    - Eth Bugs and Vulns Samples  https://github.com/trailofbits/not-so-smart-contracts
 ### Full List 
 
 Read More : 
