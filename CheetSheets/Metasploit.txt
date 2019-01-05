@@ -1,0 +1,31 @@
+Metasploit
+General Information
+================================================================
+msfconsole														 #Launch program
+msfconsole -r <FILE.rc>											# Loads a resource file
+
+db_nmap -sS -A 192.168.1.100  									# Do port scan and OS fingerprint then add results to DB
+show auxiliary 													#Show all auxiliary modules (scanners, fuzzers, proxies, etc.)
+use auxiliary/scanner/smb/smb_version 							#Detect the SMB version in use
+use auxiliary/scanner/ftp/anonymous 							#Scan for anonymous FTP servers
+use auxiliary/scanner/snmp/snmp_login							#Scan for public SNMP strings
+
+
+=========================================================================
+Meterpreter Commands : 
+
+sysinfo 									#Show system info
+ps  										#Show running processes
+kill <PID> 									#Terminate a process
+getuid  									#Show your user ID
+upload/download  							#Upload/download a file
+pwd / lpwd  								#Print working directory      
+cd / lcd  									#Change directory
+cat  										#Show contents of a file
+edit <FILE>  								#Edit a file (vim)
+shell  										#Drop into a shell
+migrate <PID>  								#Switch to another process
+hashdump  									#Show all pw hashes (Win)
+idletime  									#Display idle time of user
+screenshot 									#Take a screenshot
+clearev 									#Clear the logs
