@@ -7,14 +7,20 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - Nexpose (Free and Community Verion) https://www.rapid7.com/products/nexpose/
     - Core Impact (Not Free) https://www.secureauth.com/products/penetration-testing/core-impact
     - Cobalt Strike (Not Free) https://www.cobaltstrike.com/
-    - Autosploit https://github.com/NullArray/AutoSploit
 - Network : 
+    - Nmap https://nmap.org/
+    - Zmap https://zmap.io/
+    - Responder https://github.com/SpiderLabs/Responder
+    - https://tools.kali.org/information-gathering/apt2
 - Network and Hardware : 
     - https://github.com/threat9/routersploit
-
--	Web-Application : 
+-   Exploitation and Post Exploitaion : 
+    - Autosploit https://github.com/NullArray/AutoSploit
+    - Emire https://github.com/EmpireProject/Empire
+    - FatRat https://github.com/Screetsec/TheFatRat
+- Web-Application : 
     - Burp Suite https://portswigger.net/burp/
-    -	Burp Suite Extentions https://github.com/snoopysecurity/awesome-burp-extensions
+    - Burp Suite Extentions https://github.com/snoopysecurity/awesome-burp-extensions
     - Browser Exploitation Framework (BeEF) https://github.com/beefproject/beef
     - SQLMAP http://sqlmap.org/
     - TPLMAP https://github.com/epinna/tplmap
@@ -25,7 +31,7 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - Droopscan https://github.com/droope/droopescan
     - Joomscan https://github.com/rezasp/joomscan
     - XSSstrick https://github.com/s0md3v/XSStrike
--	Industrial : 
+- Industrial : 
     - ISF(Industrial Control System Exploitation Framework) https://github.com/dark-lbp/isf
 - Privec
     - Linux privilege escalation auditing tool  https://github.com/mzet-/linux-exploit-suggester
