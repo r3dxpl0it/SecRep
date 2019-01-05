@@ -31,6 +31,7 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - Droopscan https://github.com/droope/droopescan
     - Joomscan https://github.com/rezasp/joomscan
     - XSSstrick https://github.com/s0md3v/XSStrike
+    - GoBuster https://github.com/OJ/gobuster
 - Industrial : 
     - ISF(Industrial Control System Exploitation Framework) https://github.com/dark-lbp/isf
 - Privec
