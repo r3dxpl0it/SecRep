@@ -11,9 +11,9 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - Nmap https://nmap.org/
     - Zmap https://zmap.io/
     - Responder https://github.com/SpiderLabs/Responder
-    - https://tools.kali.org/information-gathering/apt2
+    - APT2 https://github.com/MooseDojo/apt2
 - Network and Hardware : 
-    - https://github.com/threat9/routersploit
+    - Routersploit https://github.com/threat9/routersploit
 -   Exploitation and Post Exploitaion : 
     - Autosploit https://github.com/NullArray/AutoSploit
     - Emire https://github.com/EmpireProject/Empire
