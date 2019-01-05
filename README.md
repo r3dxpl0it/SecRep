@@ -1,7 +1,14 @@
 # Sec-Rep Cyber Intrusion Guide Lin
 SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking Tools  and Cheat Sheets to assist Penetration Test, Vuln Assessment, BugHunters and In General EveryOne interested in Security and Hacking. 
 # Short List (Important Tools) 
--	Network : 
+- Frameworks : 
+    - Metasploit (Free and Community Verion)  https://www.metasploit.com/
+    - Nessus Free and Paid Verion) https://www.tenable.com/downloads/nessus
+    - Nexpose (Free and Community Verion) https://www.rapid7.com/products/nexpose/
+    - Core Impact (Not Free) https://www.secureauth.com/products/penetration-testing/core-impact
+    - Cobalt Strike (Not Free) https://www.cobaltstrike.com/
+    - Autosploit https://github.com/NullArray/AutoSploit
+- Network : 
 - Network and Hardware : 
     - https://github.com/threat9/routersploit
 
