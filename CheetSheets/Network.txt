@@ -60,4 +60,13 @@ Metasploit module for RID cycling:
 
 use auxiliary/scanner/smb/smb_lookupsid
 =========================================================================
+SNMP enumeration: 
 
+
+snmpcheck -t 192.168.1.X -c public
+
+snmpwalk -c public -v1 192.168.1.X 1| grep hrSWRunName|cut -d* * -f 
+
+snmpenum -t 192.168.1.X
+
+onesixtyone -c names -i hosts
