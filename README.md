@@ -22,6 +22,7 @@ SecRep Is a Repository That Contain Useful Intrusion, Penetration and Hacking To
     - Autosploit https://github.com/NullArray/AutoSploit
     - Emire https://github.com/EmpireProject/Empire
     - FatRat https://github.com/Screetsec/TheFatRat
+    - KernelPop https://github.com/spencerdodd/kernelpop
 - Web-Application : 
     - Burp Suite https://portswigger.net/burp/
     - Burp Suite Extentions https://github.com/snoopysecurity/awesome-burp-extensions
